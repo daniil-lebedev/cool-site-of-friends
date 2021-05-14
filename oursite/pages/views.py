@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-
+#Hi it's Renato
 
 # Create your views here. Any time you create a new html page, it needs a view in order to load it. You will also need to create a url for it.
 
