@@ -14,8 +14,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+#include package allows me to add include urls from other apps
+from django.urls import path,include
 
 urlpatterns = [
+	#path for pages applicaton. Command include tells Django to look into pages app for more urls.
+	path('', include('pages.urls')),
+	
+
+	#path for admin page in which you can do admin stuff:)
     path('admin/', admin.site.urls),
 ]
