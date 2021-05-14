@@ -39,7 +39,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #Added the pages application. For Future, all apps that are created should be added here, in order for them to work
-    'pages'
+    'pages',
+    #application for daniil
+    'daniil',
+    #application for renato
+    'renato',
+    #application for olly
+    'olly',
+    #application for sreejith
+    'sreejith'
 ]
 
 MIDDLEWARE = [

@@ -21,6 +21,17 @@ urlpatterns = [
 	#path for pages applicaton. Command include tells Django to look into pages app for more urls.
 	path('', include('pages.urls')),
 	
+    #path for renato appliction
+    path('renato', include('renato.urls')),
+
+    #path for daniil app
+    path('daniil', include('daniil.urls')),
+
+    #path for olly application
+    path('olly', include('olly.urls')),
+
+    #path for sreejith
+    path('sreejith', include('sreejith.urls')), 
 
 	#path for admin page in which you can do admin stuff:)
     path('admin/', admin.site.urls),
