@@ -33,6 +33,9 @@ urlpatterns = [
     #path for sreejith
     path('sreejith', include('sreejith.urls')), 
 
+    #path for tan
+    path('Tan', include('Tan.urls')),
+
 	#path for admin page in which you can do admin stuff:)
     path('admin/', admin.site.urls),
 ]
