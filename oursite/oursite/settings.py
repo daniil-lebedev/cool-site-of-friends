@@ -47,7 +47,9 @@ INSTALLED_APPS = [
     #application for olly
     'olly',
     #application for sreejith
-    'sreejith'
+    'sreejith',
+    #application for tan
+    'Tan'
 ]
 
 MIDDLEWARE = [
