@@ -12,37 +12,55 @@ Before installing please make sure that your Python version is at least 3.7+
 git clone https://github.com/daniil-lebedev/cool-site-of-friends.git
 ```
 
-Optionally you can install virtual environment to keep this package isolated:
+2. Install virtual environment to keep this package isolated:
 
 ```bash
 pip install virtualenv
 ```
-To activate it simply write:
+3. To create a folder with the virtual env simply write this:
 
 ```bash
 virtualenv env
 ```
 
-And then activate it:
+4. And then cd into it:
 
 ```bash
-cd env/Scripts/activate
+cd env
 ```
 
-2. Install the packages using the pip command
+5. After that simply write:
+
+```bash
+./Scripts/activate
+```
+
+For Linux devices simply write:
+
+```bash
+cd env source ./Scripts/activate
+```
+
+And activate it:
+```bash
+
+source ./Scripts/activate
+```
+
+6. Install the packages using the pip command
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Usage⚙️
-1. cd into the repo with manage.py file
+7. cd into the repo with manage.py file
 
 ```bash
 cd cool-site-of-friends/oursite/
 ```
 
-2. Run the app
+8. Run the app
 ```bash
 python manage.py runserver
 ```
