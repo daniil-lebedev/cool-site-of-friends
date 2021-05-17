@@ -49,7 +49,9 @@ INSTALLED_APPS = [
     #application for sreejith
     'sreejith',
     #application for tan
-    'Tan'
+    'Tan',
+    #blogs application
+    'blogs'
 ]
 
 MIDDLEWARE = [

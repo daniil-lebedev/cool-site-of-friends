@@ -38,4 +38,6 @@ urlpatterns = [
 
 	#path for admin page in which you can do admin stuff:)
     path('admin/', admin.site.urls),
+
+    path('blogs', include('blogs.urls'))
 ]
