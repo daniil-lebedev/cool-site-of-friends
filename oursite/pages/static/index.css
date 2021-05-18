@@ -1,0 +1,138 @@
+@media (min-width: 375px) {
+  :root {
+    --size-divisor: 2;
+  }
+}
+
+@media (min-width: 576px) {
+  :root {
+    --size-divisor: 3;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --size-divisor: 1.5;
+  }
+}
+@media (min-width: 992px) { 
+  :root {
+    --size-divisor: 1;
+  }
+}
+@media (min-width: 1200px) { 
+  :root {
+    --size-divisor: 1;
+  }
+}
+
+.body{
+	background-color:#1D4E89;
+}
+
+.team-name{
+	color:#FFFF;
+	align-content: center;
+	margin-top: 25px;
+}
+
+.team-title{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.site-slogan{
+	margin-top: 50px;
+	align-self: center;
+	margin-bottom: 100px;
+}
+
+
+.site-slogan-text{
+	margin:auto;
+	height:calc(160px / var(--size-divisor));
+	width:calc(710px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(75px / var(--size-divisor));
+	color:#FFFF;
+}
+
+
+
+.button-read-more{
+	padding-top: 10px;
+	margin:auto;
+	font-size: 20px;
+	width: 170px;
+	height: 50px;
+	border-radius: 25px; 
+	border-style: none;
+	background-color:#F79256; 
+	color:#FFFF;
+	text-align: center;
+	text-decoration: none;
+}
+
+.we-are{
+	margin-top:25px; 
+	background-color:#7DCFB6;
+	height:440px;
+	width:auto;
+}
+
+.we-are-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: auto;
+}
+
+
+.we-are-title{
+	margin-top: 55px;
+	margin-left: auto;
+	margin-right: auto;
+	height:calc(200px / var(--size-divisor));
+	width:calc(420px / var(--size-divisor));
+	color:#FFFF;
+	font-size:calc(75px / var(--size-divisor));
+	text-align: center;
+}
+
+.we-are-text{
+	margin-top:85px;
+	margin-left: auto;
+	margin-right: auto;
+	height:190px;
+	width:700px;
+	color:#FFFF;
+	font-size:calc(35px / var(--size-divisor));
+	text-align: center;
+	align-self: center;
+}
+
+.meet-the-team{
+	background-color:#00B2CA;
+	width: auto;
+	height: auto;
+}
+
+.meet-the-team-title{
+	font-size:calc(75px / var(--size-divisor));
+	color:#FFFF;
+	text-align: center;
+}
+
+.meet-the-team-card-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: center;
+}
+
+.blog{
+	margin-top: 35px;
+	margin-bottom: 25px;
+	color: #FFFF;
+	align-content: center;
+	align-self: center;
+}

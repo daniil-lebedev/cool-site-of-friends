@@ -1,11 +1,57 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
-<div class="jumbotron">
-  <h1 class="display-4">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+<div class="team-name">
+	<h3 class="team-title">N3code team</h3>
+</div>
+<div class="site-slogan">
+	<h1 class="site-slogan-text"><b>Inspired to create and passionate to learn.</b></h1>
+</div>
+<br>
+<div class="we-are">
+	<div class="we-are-container">
+		<div class="we-are-title">
+			<p><b>Who are we?</b></p>
+		</div>
+		<div class="we-are-text">
+			<p>We are a group of student from around the world who want to learn the world of IT through collaborative projects.</p>
+		</div>
+	</div>
+</div>
+<div class="meet-the-team">
+	<div class="meet-the-team-title">
+		<p><b>Meet the team</b></p>
+	</div>
+	<div class="meet-the-team-card-container">
+		<div class="card" style="width:25rem; margin-left: 30px; margin-right: 30px; margin-bottom:25px ">
+		  <img class="card-img-top" src="{% static 'plswork.png' %}">
+		  <div class="card-body">
+		    <h5 class="card-title">Card title</h5>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  </div>
+		</div>
+		<div class="card" style="width:25rem; margin-left: 30px; margin-right: 30px; margin-bottom:25px ">
+		  <img class="card-img-top" src="{% static 'plswork.png' %}">
+		  <div class="card-body">
+		    <h5 class="card-title">Card title</h5>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  </div>
+		</div>
+		<div class="card" style="width:25rem; margin-left: 30px; margin-right: 30px; margin-bottom:25px ">
+		  <img class="card-img-top" src="{% static 'plswork.png' %}">
+		  <div class="card-body">
+		    <h5 class="card-title">Card title</h5>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  </div>
+		</div>
+		<div class="card" style="width:25rem; margin-left: 30px; margin-right: 30px; margin-bottom:25px ">
+		  <img class="card-img-top" src="{% static 'plswork.png' %}">
+		  <div class="card-body">
+		    <h5 class="card-title">Card title</h5>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  </div>
+		</div>	
+	</div>
 </div>
 {% endblock %}
