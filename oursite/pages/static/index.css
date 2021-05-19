@@ -25,8 +25,12 @@
   }
 }
 
+
+
 .body{
-	background-color:#1D4E89;
+	font-family: 'Cabin', sans-serif;
+	background: rgb(2,0,36);
+	background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(29,78,137,1) 49%, rgba(125,207,182,1) 100%); 
 }
 
 .team-name{
@@ -36,46 +40,40 @@
 }
 
 .team-title{
+	margin-top: 55px;
 	text-align: center;
-	margin-bottom: 50px;
+	animation-name: title;
+	animation-duration: 3s;
 }
 
 .site-slogan{
-	margin-top: 50px;
+	margin-top:calc(100px / var(--size-divisor));
 	align-self: center;
-	margin-bottom: 100px;
+	margin-bottom:calc(555px/var(--size-divisor));
+	animation-name: title;
+	animation-duration: 3s;
+}
+
+@keyframes title {
+  from {opacity: 0%}
+  to {opacity: 100%}
 }
 
 
 .site-slogan-text{
 	margin:auto;
 	height:calc(160px / var(--size-divisor));
-	width:calc(710px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
 	text-align: center;
-	font-size:calc(75px / var(--size-divisor));
+	font-size:calc(95px / var(--size-divisor));
 	color:#FFFF;
 }
 
-
-
-.button-read-more{
-	padding-top: 10px;
-	margin:auto;
-	font-size: 20px;
-	width: 170px;
-	height: 50px;
-	border-radius: 25px; 
-	border-style: none;
-	background-color:#F79256; 
-	color:#FFFF;
-	text-align: center;
-	text-decoration: none;
-}
 
 .we-are{
 	margin-top:25px; 
 	background-color:#7DCFB6;
-	height:440px;
+	height:650px;
 	width:auto;
 }
 
@@ -88,24 +86,24 @@
 
 
 .we-are-title{
-	margin-top: 55px;
+	margin-top:calc(235px / var(--size-divisor));
 	margin-left: auto;
 	margin-right: auto;
 	height:calc(200px / var(--size-divisor));
 	width:calc(420px / var(--size-divisor));
 	color:#FFFF;
-	font-size:calc(75px / var(--size-divisor));
+	font-size:calc(85px / var(--size-divisor));
 	text-align: center;
 }
 
 .we-are-text{
-	margin-top:85px;
+	margin-top:calc(235px / var(--size-divisor));
 	margin-left: auto;
 	margin-right: auto;
 	height:190px;
 	width:700px;
 	color:#FFFF;
-	font-size:calc(35px / var(--size-divisor));
+	font-size:calc(45px / var(--size-divisor));
 	text-align: center;
 	align-self: center;
 }
