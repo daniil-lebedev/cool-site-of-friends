@@ -197,3 +197,59 @@
 }
 
 
+
+/*renato page styling*/
+
+.renato-intro-styling{
+	background: rgb(2,0,36);
+	background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(29,78,137,1) 49%, rgba(125,207,182,1) 100%); 
+}
+
+.renato-intro-title{
+	padding-top: 75px;
+	align-self: center;
+	margin-bottom:calc(25px/var(--size-divisor));
+}
+
+.renato-intro-text{
+	margin:auto;
+	height:calc(110px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(75px / var(--size-divisor));
+	color:#FFFF;
+}
+
+.renato-intro-small{
+	margin-top: 75px;
+	align-self: center;
+	margin-bottom:calc(100px/var(--size-divisor));
+}
+
+.renato-intro-small-text{
+	margin:auto;
+	height:calc(270px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(25px / var(--size-divisor));
+	color:#FFFF;
+}
+
+.renato-disclaimer-text{
+	margin:auto;
+	height:calc(15px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(15px / var(--size-divisor));
+	color:#F79256;
+	font-weight: bold
+}
+/*
+.renato-profile-picture{
+
+	Add profile picture settings!!!
+}
+
+*/
+
+
