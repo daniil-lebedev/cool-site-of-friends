@@ -1,10 +1,4 @@
 {% load static %}
-<!---The load static command serves as a shortcut between templates folder and static folder. In static we store .css files and images, whilst in 
-  templates we store the .html code.-->
-
-<!--Furthermore, the base.html is a file where we have all our constant stuff like the navbar or all the .css and .js links. Using Django,
-  we can extend this page to others, therefore we will have the same navbar on all pages and also have all the .css links saving us time and effort-->
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -44,30 +38,30 @@
   </head>
 
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#F79256;font-family: 'Cabin', sans-serif;">
-  <a class="navbar-brand" href="{% url 'aboutPage' %}">About</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <a class="navbar-brand" href="{% url 'aboutPage' %}">About</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse navbar-dark" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle navbar-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Team
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="{% url 'dannilPage' %}">Daniil</a>
-          <a class="dropdown-item" href="{% url 'renatoPage' %}">Renato</a>
-          <a class="dropdown-item" href="{% url 'sreejithPage' %}">Sreejith</a>
-          <a class="dropdown-item" href="{% url 'TanPage' %}">Tan</a>
-        </div>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="{% url 'blogsPage' %}">Blogs <span class="sr-only">(current)</span></a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <div class="collapse navbar-collapse navbar-dark" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navbar-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Team
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{% url 'dannilPage' %}">Daniil</a>
+            <a class="dropdown-item" href="{% url 'renatoPage' %}">Renato</a>
+            <a class="dropdown-item" href="{% url 'sreejithPage' %}">Sreejith</a>
+            <a class="dropdown-item" href="{% url 'TanPage' %}">Tan</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'blogsPage' %}">Blogs <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <body class="body">
     <!--This is a special block which will be used to conntect code from one page to base.html. This tags tell Django add the stuff above like the navbar to code in the tags-->
