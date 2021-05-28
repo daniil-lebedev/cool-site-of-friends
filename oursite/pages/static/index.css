@@ -37,6 +37,7 @@
 	background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(29,78,137,1) 49%, rgba(125,207,182,1) 100%); 
 }
 .team-name{
+	padding-top: 105px;
 	color:#FFFF;
 	align-content: center;
 }
@@ -110,6 +111,7 @@
 }
 
 .meet-the-team{
+	padding-top: 35px;
 	background-color:#00B2CA;
 	width: auto;
 	height: auto;
@@ -194,6 +196,43 @@
 	text-align: center;
 	font-size:calc(25px / var(--size-divisor));
 	color:#FFFF;
+	margin-bottom: 75px;
+}
+.meet-daniil{
+	width: auto;
+	height: auto;
+	width:auto;
+	background: rgba( 255, 255, 255, 0.60 );
+	-webkit-backdrop-filter: blur( 0.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.meet-daniil-title{
+	margin-top: 25px;
+	font-size:calc(75px / var(--size-divisor));
+	color:#FFFF;
+	text-align: center;
+	margin:auto;
+}
+
+.meet-daniil-card-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: center;
+}
+
+.daniil-skills{
+	background-image: url(daniil-images/better-background.svg);
+}
+.daniil-skills-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+
 }
 
 
