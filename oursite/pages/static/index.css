@@ -144,8 +144,8 @@
 /*daniil page styling*/
 
 .daniil-intro-styling{
-	background: rgb(2,0,36);
-	background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(29,78,137,1) 49%, rgba(125,207,182,1) 100%); 
+	background: rgb(29,78,137);
+	background: linear-gradient(180deg, rgba(29,78,137,1) 49%, rgba(0,178,202,1) 100%); 
 }
 
 .daniil-intro-title{
@@ -186,7 +186,7 @@
 .daniil-intro-small{
 	margin-top: 75px;
 	align-self: center;
-	margin-bottom:calc(100px/var(--size-divisor));
+	margin-bottom:calc(300px/var(--size-divisor));
 }
 
 .daniil-intro-small-text{
@@ -233,6 +233,39 @@
 	flex-direction: row;
 	align-items: center;
 
+}
+
+.contact-me{
+	width: auto;
+	height: auto;
+	width:auto;
+	background: rgba( 255, 255, 255, 0.60 );
+	-webkit-backdrop-filter: blur( 0.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.contact-me-title{
+	font-size:calc(75px / var(--size-divisor));
+	color:#FFFF;
+	text-align: center;
+	margin:auto;
+}
+
+.contact-me-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: center;
+}
+
+.circle{
+	height: 250px;
+  width: 250px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: auto;
 }
 
 
