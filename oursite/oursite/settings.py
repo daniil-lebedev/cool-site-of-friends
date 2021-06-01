@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-)^3#2hvd9=#7q!79=v$ex#a%72fl$*ht^lhlmrletdy8#(#mxq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['sn3code-team-test.herokuapp.com']
+ALLOWED_HOSTS = ['test-run-app-sn3code.herokuapp.com']
 
 
 # Application definition
@@ -148,6 +148,6 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
-
+#comment
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
