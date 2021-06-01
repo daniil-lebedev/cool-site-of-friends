@@ -29,6 +29,7 @@ DEBUG = False
 WHITENOISE_MANIFEST_STRICT = False
 ALLOWED_HOSTS = ['test-run-app-sn3code.herokuapp.com']
 #test-run-app-sn3code.herokuapp.com
+#comment
 
 # Application definition
 
