@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-)^3#2hvd9=#7q!79=v$ex#a%72fl$*ht^lhlmrletdy8#(#mxq
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-WHITENOISE_MANIFEST_STRICT = False
-ALLOWED_HOSTS = ['daniil-test-our-app.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 #test-run-app-sn3code.herokuapp.com
 #comment
 
@@ -148,8 +147,4 @@ STATICFILES_DIRS = (
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
-#comment
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
