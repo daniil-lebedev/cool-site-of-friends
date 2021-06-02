@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+#pls work
 from django.contrib import admin
 #include package allows me to add include urls from other apps
 from django.urls import path,include
@@ -22,10 +23,10 @@ urlpatterns = [
 	path('', include('pages.urls')),
 	
     #path for renato appliction
-    path('renato', include('renato.urls')),
+    path('renato/', include('renato.urls')),
 
     #path for daniil app
-    path('daniil', include('daniil.urls')),
+    path('daniil/', include('daniil.urls')),
 
     #path for olly application
     path('olly', include('olly.urls')),
@@ -34,10 +35,10 @@ urlpatterns = [
     path('sreejith', include('sreejith.urls')), 
 
     #path for tan
-    path('Tan', include('Tan.urls')),
+    path('Tan/', include('Tan.urls')),
 
 	#path for admin page in which you can do admin stuff:)
     path('admin/', admin.site.urls),
 
-    path('blogs', include('blogs.urls'))
+    path('blogs/', include('blogs.urls'))
 ]
